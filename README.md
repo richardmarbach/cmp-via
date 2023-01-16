@@ -13,7 +13,7 @@ use({
   "hrsh7th/nvim-cmp",
   requires = {
     { 
-      "richardmarbach/cmp-github" 
+      "richardmarbach/cmp-via" 
       requires = "nvim-lua/plenary.nvim"
     },
   },
@@ -22,7 +22,7 @@ use({
 
 require('cmp').setup({
   sources = {
-    { name = "github" },
+    { name = "via" },
   },
 })
 
@@ -38,7 +38,7 @@ Plug "richardmarbach/cmp-github"
 lua << EOF
 require('cmp').setup({
   sources = {
-    { name = "github" },
+    { name = "via" },
   },
 })
 EOF
