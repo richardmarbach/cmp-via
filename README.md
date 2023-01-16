@@ -1,4 +1,4 @@
-# cmp-github
+# cmp-via
 
 ## Requirements
 
