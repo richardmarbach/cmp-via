@@ -3,7 +3,7 @@
 ## Requirements
 
 - `neovim >= 0.6`
-- `gh` cli
+- [`via` cli](https://github.com/richardmarbach/via-cli)
 
 ## Installation
 
