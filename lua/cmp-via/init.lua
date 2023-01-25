@@ -65,7 +65,7 @@ function source:complete(_, callback)
             label = detail,
             detail = detail,
             documentation = { kind = "markdown", value = description },
-            insertText = string.format("%s %s\n\n%s", issue.identifier, issue.title, issue.url),
+            insertText = string.format("%s %s", issue.identifier, issue.title),
             sortText = string.format("%06d", issue.number),
           })
         end
