@@ -53,7 +53,7 @@ function source:complete(_, callback)
 
         local items = {}
         for _, issue in ipairs(issues) do
-          local description = string.sub(issue.description, 0, 500)
+          local description = string.sub(issue.description or "", 0, 500)
           description = string.gsub(description, "\r", "")
           if string.len(issue.description) > 500 then
             description = description .. "..."
